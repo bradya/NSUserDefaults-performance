@@ -31,4 +31,5 @@ NSDictionary, setObject
 2. it's not ok to use NSUserDefaults for any code that is called often
 
 
-### Example. Say you have 1000 strings in your nsuserdefaults already (not impossible). typing a 100 character message would tie up the CPU for ~8.8 seconds over the time you typed it (because we do setObject in NSUserDefaults for every character you type. so we can preserve what you typed in case the app crashes, etc)
+### Example
+Say you have 1000 strings in your nsuserdefaults already (not impossible). typing a 100 character message would tie up the CPU for ~8.8 seconds over the time you typed it (because we do setObject in NSUserDefaults for every character you type. so we can preserve what you typed in case the app crashes, etc)
