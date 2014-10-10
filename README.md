@@ -26,10 +26,6 @@ NSUserDefaults, setObject, no synch, 1000 other strings in defaults
 NSDictionary, setObject
     Avg. Runtime:   0.00132 seconds
 
-### My conclusions
-1. it's ok to call synchronize as much as you want
-2. it's probably not ok to use NSUserDefaults for any code that is called often 
-
 
 ### Example
 Say you have 1000 strings in your nsuserdefaults already (not impossible). typing a 100 character message would tie up the CPU for ~8.8 seconds over the time you typed it (because we do setObject in NSUserDefaults for every character you type. so we can preserve what you typed in case the app crashes, etc)
