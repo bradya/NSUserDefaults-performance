@@ -3,7 +3,7 @@ NSUserDefaults-performance
 
 Quickly built this to test NSUserDefaults performance and scalability. To see for yourself, open the project in Xcode and run the tests.
 
-### Results
+### Results (1000 iterations)
 
 NSUserDefaults, setObject, synch after, empty defaults
     Avg. Runtime:   0.39 seconds
