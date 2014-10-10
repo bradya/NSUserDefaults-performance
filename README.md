@@ -28,7 +28,7 @@ NSDictionary, setObject
 
 ### My conclusions
 1. it's ok to call synchronize as much as you want
-2. it's not ok to use NSUserDefaults for any code that is called often
+2. it's probably not ok to use NSUserDefaults for any code that is called often 
 
 
 ### Example
